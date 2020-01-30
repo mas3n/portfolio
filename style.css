@@ -1,0 +1,126 @@
+/**Index.html**/
+#logo {
+  position: absolute;
+  font-family: 'Courier New';
+  cursor:default;
+}
+
+h1.name {
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+h3.info {
+  color: #000;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+#headerHolder {
+  position: relative;
+  background-color: #b3ffff;
+  border-bottom: 2px solid #000;
+}
+
+#header {
+  margin-left: 950px;
+  width: auto;
+  height: 100px;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 24px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Courier New';
+}
+
+.button:hover {
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.5s;
+  color: #b3ffff;
+}
+
+.footer {
+  height: 40px;
+  position: relative;
+  background-color: #b3ffff;
+  margin-top: 58px;
+  border-top: 2px solid #000;
+}
+
+/**Info.html**/
+#textInfo {
+  color: #fff;
+  background-color: #000;
+  height: 600px;
+  width: 900px;
+  margin-top: 58px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+  border-radius: 4px;
+}
+
+h1.infoHeader {
+  margin-top: 30px;
+}
+
+p.infoText {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 1.8;
+}
+
+#photo {
+  position: relative;
+  left: 650px;
+  top: 15px;
+  height: 300px;
+  width: 230px;
+  background-color: pink;
+}
+/**Portfolio.html**/
+#pickPort {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  height: 600px;
+  width: 250px;
+}
+
+ ul.portUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+ }
+
+ a.portLIA {
+   position: relative;
+  display: block;
+  color: #fff;
+  padding: 30px 16px;
+  text-decoration: none;
+  margin-top: 0px;
+  border: 0.5px solid #fff;
+  background-color: #000;
+}
+
+a.portLIA:hover {
+ color: #b3ffff;
+ width: 190px;
+ padding: 32px 18px;
+ transition: 0.4s;
+}
